@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PeacePulse</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+<body>
+    <section id="header">
+        <a href="#"><p class="logo" >PeacePulse </p> </a>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html" >Home</a></li>
+                <li><a href="shop.html">Self-Assesment</a></li>
+                <li><a href="blog.html" >Explore</a></li>
+                <li><a href="about.html" class="active">Chatbot</a></li>
+                <li><a href="contact.html" >Find Therapist</a></li>
+                <li id="lg-bag"><a href="cart.html" ><i class="fa-solid fa-feather"></i></a></li>
+                <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+           
+            <i class="fa-solid fa-bag-shopping"></i>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+
+    <section class="about-header" >
+        <h1>#TalkWithBot</h1>
+        <h4>Know the Solutions</h4>
+    </section>
+    
+    <section id="about-app" class="section-p1" >
+        <h2>Interact with our bot anytime...</h2>
+        <marquee loop="-1" scrollamount="10" width="100%" style="background-color:rgb(237, 234, 234);height:40px;font-size:30px;color:rgba(19, 45, 122, 0.623);font-weight:700"> "To commence the conversation, kindly click on the message icon." </marquee>
+        <div class="video">
+            <video autoplay muted loop src="new/video.mp4"></video>
+        </div>
+
+
+    </section>
+
+
+    <section id="about-head" class="section-p1">
+        <img src="new/personai.png" alt="">
+        
+        <div>
+            <h2>Who am I?</h2>
+            <p>"Our website features an innovative chatbot programmed to provide valuable insights into mental well-being. This bot serves as a virtual assistant, available at any time to offer personalized support and guidance regarding various aspects of mental health. With its sophisticated algorithms, the bot can assess a user's mental well-being based on their input and provide tailored recommendations, coping strategies, and resources to help navigate challenges. Users can engage in confidential conversations with the bot, exploring topics related to their mental health and accessing valuable assistance whenever needed. The bot is a vital resource on our website, empowering users to prioritize their mental wellness effectively."</p>
+        </div>
+ 
+    </section>
+
+    
+    <section id="newsletter" class="section-p1 section-m1">
+        <div class="newtext">
+            <h4>Sign Up For Getting Notifications</h4>
+            <p>Get E-mail updates about our latest Articles and <span>Therapies</span>.</p>
+        </div>
+        <div class="form">
+            <input type="text " placeholder="Your email address">
+            <button class="normal">Sign Up</button>
+        </div>
+    </section>
+     
+
+    <footer class="section-p1">
+        <div class="col" class="add">
+            <h4>Contact</h4>
+            <p><span>Address</span> MAIT, Delhi, INDIA</p>
+            <p><span>Phone:</span>0156623456/(+91)0123452 2890</p>
+            <!-- <p><span>hours:</span>10:00-18:00,Mon-Fri</p> -->
+            <div class="follow">
+                <h4>Follow us</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                    <i class="fa-regular fa-envelope"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col " >
+            <h4>About</h4>
+            <a href="#" >About Us</a>
+            <a href="#" >Our product</a>
+            <a href="#" >Policy Privacy</a>
+            <a href="#" >Terms & Conditions</a>
+            <a href="#" >Contact Us</a>
+        </div>
+
+        <div class="col" >
+            <h4>My account</h4>
+            <a href="#" >Sign In</a>
+            <a href="#" >View Activities</a>
+            <!-- <a href="#" >My Wishlist</a> -->
+            <a href="#" >Track your performance</a>
+            <a href="#" >Help</a>
+        </div>
+
+       
+    </footer>
+    <div class="copyright">
+        <p>	&#169; 2024 ,HackerSpace Mental health check-up website</p>
+    </div>
+  
+
+
+    <script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
+<script>
+  window.botpressWebChat.init({
+      "composerPlaceholder": "Chat with bot",
+      "botConversationDescription": "",
+      "botId": "12193ee3-84a2-4d81-b3c7-46e6134814ac",
+      "hostUrl": "https://cdn.botpress.cloud/webchat/v1",
+      "messagingUrl": "https://messaging.botpress.cloud",
+      "clientId": "12193ee3-84a2-4d81-b3c7-46e6134814ac",
+      "webhookId": "929a2375-291f-4694-9279-96b804bd33ad",
+      "lazySocket": true,
+      "themeName": "prism",
+      "stylesheet": "https://webchat-styler-css.botpress.app/prod/code/c02ea372-accb-4022-9a30-dba6711faf3f/v82395/style.css",
+      "frontendVersion": "v1",
+      "useSessionStorage": true,
+      "enableConversationDeletion": true,
+      "theme": "prism",
+      "themeColor": "#2563eb"
+  });
+</script>
+  
+    <script src="script.js"></script> 
+</body>
+</html>
