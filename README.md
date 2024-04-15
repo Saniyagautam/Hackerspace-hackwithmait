@@ -34,7 +34,7 @@ To get started with the Mental Health Wellbeing website ,follow these steps:
 
 1. **Clone the repository:**
    
-**git clone**  https://github.com/Saniyagautam/hackerspace.git
+**git clone**  https://github.com/Saniyagautam/Hackerspace-hackwithmait
 
 2.  **Download the live server for your compiler**
    
